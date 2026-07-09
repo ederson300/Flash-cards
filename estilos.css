@@ -1,23 +1,12 @@
-<header> → class="cabecalho"{
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-}
-<article> → class="cartao"
-<div> (dentro de <article>) → class="cartao-interno"
-<img> → class="cartao-imagem"
 {
 box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
-.cabecalho { 
-  display: flex; 
-  justify-content: space-between; 
-  align-items: center; 
-  padding: 15px 25px; 
-} 
 
+.cabecalho {
+padding: 15px 25px;
+}
 
 .cartao {
 width: 260px;
@@ -27,11 +16,3 @@ height: 200px;
 .cartao-imagem {
 width: 100%;
 }
-body { 
-  display: flex; 
-  flex-direction: column; 
-  min-height: 100vh; 
-} 
-main { 
-  flex: 1; 
-} 
